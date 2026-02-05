@@ -17,3 +17,8 @@ git commit -m "comandos basicos do git."
 git push 
 
 
+## branch 
+
+mostra branches no computador  :
+git branch 
+
