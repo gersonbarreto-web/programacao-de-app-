@@ -1,33 +1,25 @@
-
-
+/* reset das configuracao do navegador */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 body{
-    background-color: blanchedalmond;
-    background-image: url("assets/fundo2.jpg");
-    background-repeat: no-repeat;
-    background-position:center ;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: #000000;
+   background-image:url(assets/fundo.jpg);
+   background-repeat: no-repeat;
+   background-position:center;
+   background-size: cover;
+   background-attachment: fixed;
 }
 
-
-
-h1 {
+h2{
+    color: #fff;
+    font-size: 2rem;
     text-align: center;
-    color: rgb(255, 0, 0);
-    font-size: 50px;
-    margin: 20px;
-}
+    margin-top: 20px;
+    font-family:"Arial", sans-serif;
+    display: block;
 
-p{
-    text-align: justify;
-    font-size: 20px;
-    font-family: arial;
-    margin: 20px;
 }
