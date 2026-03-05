@@ -7,6 +7,8 @@ if (idade >=18){
 } else if (idade>=11){
     console.log("adolescente")
 
-}else(idade){ 
+}else if (idade>=2){ 
     console.log("crianca")
+} else {
+    console.log("bebe")
 }
