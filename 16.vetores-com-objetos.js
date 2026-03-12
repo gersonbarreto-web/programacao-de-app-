@@ -17,7 +17,8 @@ const listadeusuario = [
     {nome: "Maria", idade: 35},
     {nome: "joana", idade: 45},
     {nome: "jose", idade : 30},
-    {nome: "max", idade : 17}
+    {nome: "max", idade : 17},
+    {nome: "pele", idade : 16}
 
 ]
 
@@ -65,3 +66,24 @@ listadeusuario.forEach((nome) => {
     console.log(nome);
 
 });
+
+console.log("\nNa lista de usuario, mostre apenas os nomes.")
+const nomes = listadeusuario.map(u => u.nome)
+nomes.forEach(nome => console.log(`Nome: ${nome}`))
+
+console.log("\nNa lista de usuarios, encontre um usuario")
+const usuarioEncontrado = listadeusuario.find(u => u.nome = "ana")
+console.log(usuarioEncontrado)
+console.log(`nome: ${usuarioEncontrado.nome} \nIdade: ${usuarioEncontrado.idade}`)
+
+console.log("\nNa lista de usuario, encontre um usuario com idade de 45 anos.")
+const usuarionotificado = listadeusuario.find(u => u.nome == "joana")
+console.log(usuarionotificado)
+console.log(`nome: ${usuarionotificado.nome} \nIdade: ${usuarionotificado.idade}`)
+
+console.log("\nNa lista de usuario, somando todas a idade. ")
+const somaidade = listadeusuario.reduce((total, usuario)=> total + usuario.idade, 0)
+console.log(somaidade)
+
+
+
