@@ -1,0 +1,84 @@
+/* Fonte geral */
+body {
+    font-family: "Courier New", monospace;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Título */
+h1 {
+    font-size: 40px;
+    color: #22c55e;
+    margin-bottom: 10px;
+}
+
+/* Logo */
+img {
+    margin-bottom: 20px;
+}
+
+/* Caixa principal */
+.container {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 12px;
+    width: 350px;
+    margin: auto;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+}
+
+/* Inputs */
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+}
+
+/* Botão */
+button {
+    background: #22c55e;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #16a34a;
+}
+
+/* Resultados */
+p {
+    background: #020617;
+    padding: 8px;
+    margin: 8px auto;
+    width: 80%;
+    border-radius: 6px;
+    border-left: 4px solid #22c55e;
+}
+
+/* Efeito matemático com símbolos */
+body::before {
+    content: "∑  π  √  ∆  ≈  ∞  ∫  ÷  ×  ±";
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 22px;
+    color: rgba(255,255,255,0.08);
+}
+
+body::after {
+    content: "π  √  ∑  ∫  ≈  ∞  ×  ÷";
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 22px;
+    color: rgba(255,255,255,0.08);
+}
