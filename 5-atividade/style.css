@@ -1,0 +1,108 @@
+/* Configurações gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5deb3; /* Cor de trigo/palha */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* O "cartão" principal simulando um caixote de madeira */
+.caixote-feira {
+    background-color: #fffaf0; /* Fundo mais claro */
+    border: 5px solid #8b4513; /* Borda cor de madeira */
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    text-align: center;
+}
+
+/* Estilos do cabeçalho e logotipo */
+header {
+    margin-bottom: 20px;
+    border-bottom: 2px dashed #4CAF50;
+    padding-bottom: 10px;
+}
+
+.logotipo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #d32f2f; /* Vermelho maçã */
+}
+
+.logotipo span {
+    color: #2e8b57; /* Verde folha */
+}
+
+h1 {
+    font-size: 20px;
+    color: #5d4037;
+    margin-top: 10px;
+}
+
+/* Estilo do bloco de preços */
+.tabela-precos p {
+    background-color: #e8f5e9; /* Fundo verdinho claro */
+    border-left: 4px solid #4CAF50; /* Detalhe verde na lateral */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Campo de digitação */
+.campo-entrada {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.campo-entrada label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #5d4037;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box; /* Para não vazar o tamanho da caixa */
+}
+
+input[type="number"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Botão */
+button {
+    background-color: #d32f2f; /* Vermelho maçã */
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #b71c1c; /* Vermelho mais escuro ao passar o mouse */
+}
+
+/* Estilo do texto do resultado final */
+.resultado {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 25px; /* Evita que a página pule quando o texto aparecer */
+}
