@@ -1,0 +1,44 @@
+/* Importando uma fonte similar à da Apple caso a original não esteja disponível no sistema */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.info-curso {
+    /* Tipografia e Cores */
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1d1d1f; /* Cinza escuro padrão da Apple para textos */
+    background-color: #ffffff; /* Fundo branco limpo */
+    
+    /* Estrutura e Espaçamento */
+    max-width: 350px;
+    padding: 32px;
+    margin: 20px auto;
+    border-radius: 18px; /* Cantos arredondados característicos */
+    
+    /* Efeito de Sombra Sutil (Profundidade) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04), 0 10px 15px rgba(0, 0, 0, 0.08);
+    
+    /* Transição suave para o efeito de hover */
+    transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), 
+                box-shadow 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Efeito Apple ao passar o mouse: leve elevação e sombra mais ampla */
+.info-curso:hover {
+    transform: scale(1.02) translateY(-4px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.08), 0 20px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Estilo do Título */
+.info-curso h2 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.015em; /* Tracking levemente reduzido, típico da Apple */
+    margin-top: 0;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #e8e8ed;
+    padding-bottom: 12px;
+}
+
+/* Estilo dos Parágrafos (Linhas de informação) */
+.info-curso p {
+    font-size: 17px;
+    line-height: 1.47059;  } /* Line-height específico

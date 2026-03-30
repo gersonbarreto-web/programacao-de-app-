@@ -1,0 +1,14 @@
+.Mensagem h1 {
+    color: blue;
+    margin: 10px 0;
+
+}
+
+.Mensagem p {
+    color: red;
+    margin: 10px 0;
+}
+
+.Mensagem hr {
+    max-width: 50%;
+}
