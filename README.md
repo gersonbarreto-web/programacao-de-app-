@@ -22,3 +22,11 @@ git push
 mostra branches no computador  :
 git branch 
 
+# API - NODEJS
+
+### iniciar projeto 
+
+npm init-y
+
+### instalar o programa 
+ npm i express sequelize mysql2 cors
